@@ -1,3 +1,39 @@
 body{
     background-color: gray;
+    margin: 0px;
+
+}
+.fejleceskep{
+    background-image: url(img/pizzakep.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.piadinapizzeria{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 80vw
+}
+.menupontok{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+.specialitasaink{
+    background-color: lightgrey;
+    text-align: center;
+}
+.lablec{
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    gap: 3vw;
 }
