@@ -26,14 +26,128 @@ body{
     display: flex;
     justify-content: center;
     gap: 5vw;
+    padding-bottom: 3vh;
 }
 .specialitasaink{
-    background-color: lightgrey;
+    background-color: #222222;
     text-align: center;
+    margin-bottom: 0px;
+    padding-top: 2vh;
+    color: white;
 }
 .lablec{
     margin: auto;
     width: 80vw;
     display: flex;
     gap: 3vw;
+    flex-grow: 1;
+    border-bottom: 2px solid black;
+}
+.flexgrow1{
+    flex-grow: 1
+}
+.piadinafoglalj{
+    background-color: #222222;
+    color: white;
+    font-size: 13px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.bal{
+    flex-grow: 1;
+    margin-right: 10vw;
+}
+.h2piadinapizzeria{
+    margin-bottom: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+.tortenetunk{
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.jobb{
+    flex-grow: 2;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+}
+.h4foglalj{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.menu{
+    text-align: center;
+    padding-top: 2vh;
+    background-color: #101010;
+    color: white;
+}
+.azizek{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.szeretettel{
+    text-align: right;
+}
+.nyitva{
+    flex-grow: 1;
+}
+.foglaljasztaltitt{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.lablec2{
+    text-align: center;
+    background-color: lightgrey;
+}
+.underline{
+    text-decoration: underline;
+}
+.pkgrid1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
+}
+img{
+    object-fit: cover;
+}
+.pkgrid2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+    width: 100%;
+}
+.pkgrid3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
+}
+.pkgrid4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%; 
+}
+.pkgrid5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
+}
+.kepek{
+    display: grid;
+    gap: 5px;
+    padding-bottom: 2vh;
+    margin: 2vh;
 }
