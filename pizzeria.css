@@ -1,7 +1,8 @@
 body{
     background-color: gray;
     margin: 0px;
-
+    background-color: #101010;
+    color: white;
 }
 .fejleceskep{
     background-image: url(img/pizzakep.jpg);
@@ -9,12 +10,15 @@ body{
     height: 30vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     color: white;
+    font-size: 11px;
 }
 .navbar{
     display: flex;
     justify-content: space-evenly;
+    width: 45vw;
+    color: lightgray;
 }
 .piadinapizzeria{
     margin: auto;
@@ -37,11 +41,13 @@ body{
 }
 .lablec{
     margin: auto;
-    width: 80vw;
+    width: 75vw;
     display: flex;
     gap: 3vw;
     flex-grow: 1;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
+    background-color: #101010;
+    color: white;
 }
 .flexgrow1{
     flex-grow: 1
@@ -52,10 +58,12 @@ body{
     font-size: 13px;
     padding-top: 3vh;
     padding-bottom: 3vh;
+    width: 97vw;
+    margin: auto;
 }
 .bal{
     flex-grow: 1;
-    margin-right: 10vw;
+    margin-right: 3vw;
 }
 .h2piadinapizzeria{
     margin-bottom: 0.5vh;
@@ -84,6 +92,7 @@ body{
 .azizek{
     margin-top: 0px;
     padding-top: 0px;
+    color: lightgrey;
 }
 .szeretettel{
     text-align: right;
@@ -97,7 +106,8 @@ body{
 }
 .lablec2{
     text-align: center;
-    background-color: lightgrey;
+    background-color: #101010;
+    color: white;
 }
 .underline{
     text-decoration: underline;
@@ -150,4 +160,30 @@ img{
     gap: 5px;
     padding-bottom: 2vh;
     margin: 2vh;
+}
+.menupontokharom{
+    border: 1px solid lightgrey;
+    width: 15vw;
+    font-size: 10px;
+    color: lightgrey;
+}
+.ajanlatunkalatt{
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 2vh;
+    font-size: 13px;
+    color: lightgrey;
+}
+.szeretettel, .nyitva, .probald{
+    width: 25vw;
+}
+.pizzeria{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.kezdolap{
+    color: white;
+}
+.ajanlatunk{
+    color: lightgrey;
 }
