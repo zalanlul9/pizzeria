@@ -1,189 +1,413 @@
-body{
-    background-color: gray;
-    margin: 0px;
-    background-color: #101010;
-    color: white;
-}
-.fejleceskep{
-    background-image: url(img/pizzakep.jpg);
-    background-size: cover;
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    color: white;
-    font-size: 11px;
-}
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    width: 45vw;
-    color: lightgray;
-}
-.piadinapizzeria{
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly; 
-    width: 80vw
-}
-.menupontok{
-    display: flex;
-    justify-content: center;
-    gap: 5vw;
-    padding-bottom: 3vh;
-}
-.specialitasaink{
-    background-color: #222222;
-    text-align: center;
-    margin-bottom: 0px;
-    padding-top: 2vh;
-    color: white;
-}
-.lablec{
-    margin: auto;
-    width: 75vw;
-    display: flex;
-    gap: 3vw;
-    flex-grow: 1;
-    border-bottom: 2px solid grey;
-    background-color: #101010;
-    color: white;
-}
-.flexgrow1{
-    flex-grow: 1
-}
-.piadinafoglalj{
-    background-color: #222222;
-    color: white;
-    font-size: 13px;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    width: 97vw;
-    margin: auto;
-}
-.bal{
-    flex-grow: 1;
-    margin-right: 3vw;
-}
-.h2piadinapizzeria{
-    margin-bottom: 0.5vh;
-    padding-bottom: 0.5vh;
-}
-.tortenetunk{
-    text-align: right;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-.jobb{
-    flex-grow: 2;
-    margin-bottom: 1vh;
-    padding-bottom: 1vh;
-}
-.h4foglalj{
-    margin-top: 0px;
-    padding-top: 0px;
-}
-.menu{
-    text-align: center;
-    padding-top: 2vh;
-    background-color: #101010;
-    color: white;
-}
-.azizek{
-    margin-top: 0px;
-    padding-top: 0px;
-    color: lightgrey;
-}
-.szeretettel{
-    text-align: right;
-}
-.nyitva{
-    flex-grow: 1;
-}
-.foglaljasztaltitt{
-    font-weight: bold;
-    text-decoration: underline;
-}
-.lablec2{
-    text-align: center;
-    background-color: #101010;
-    color: white;
-}
-.underline{
-    text-decoration: underline;
-}
-.pkgrid1{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    height: 100%;
-    width: 100%;
-}
-img{
-    object-fit: cover;
-}
-.pkgrid2{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    height: 100%;
-    width: 100%;
-}
-.pkgrid3{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    height: 100%;
-    width: 100%;
-}
-.pkgrid4{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    height: 100%;
-    width: 100%; 
-}
-.pkgrid5{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: 100%;
-    width: 100%;
-}
-.kepek{
-    display: grid;
-    gap: 5px;
-    padding-bottom: 2vh;
-    margin: 2vh;
-}
-.menupontokharom{
-    border: 1px solid lightgrey;
-    width: 15vw;
-    font-size: 10px;
-    color: lightgrey;
-}
-.ajanlatunkalatt{
-    width: 70vw;
-    margin: auto;
-    margin-bottom: 2vh;
-    font-size: 13px;
-    color: lightgrey;
-}
-.szeretettel, .nyitva, .probald{
-    width: 25vw;
-}
-.pizzeria{
-    padding-left: 10px;
-    font-size: 15px;
-}
-.kezdolap{
-    color: white;
-}
-.ajanlatunk{
-    color: lightgrey;
+@media (min-width: 1280px) {
+    body{
+        background-color: gray;
+        margin: 0px;
+        background-color: #101010;
+        color: white;
+        font-family: sans-serif;
+    }
+    .fejleceskep{
+        background-image: url(img/pizzakep.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        color: white;
+        font-size: 11px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 45vw;
+        color: lightgray;
+    }
+    .piadinapizzeria{
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly; 
+        width: 80vw
+    }
+    .menupontok{
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        padding-bottom: 3vh;
+    }
+    .specialitasaink{
+        background-color: #222222;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 2vh;
+        color: white;
+    }
+    .lablec{
+        margin: auto;
+        width: 75vw;
+        display: flex;
+        gap: 3vw;
+        flex-grow: 1;
+        border-bottom: 2px solid grey;
+        background-color: #101010;
+        color: white;
+    }
+    .flexgrow1{
+        flex-grow: 1
+    }
+    .piadinafoglalj{
+        background-color: #222222;
+        color: white;
+        font-size: 13px;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        margin: auto;
+    }
+    .bal{
+        flex-grow: 1;
+        margin-right: 3vw;
+    }
+    .h2piadinapizzeria{
+        margin-bottom: 0.5vh;
+        margin: auto;
+    }
+    .tortenetunk{
+        text-align: right;
+        margin-top: 0px;
+        padding-top: 0px;
+        color: lightgrey;
+    }
+    .jobb{
+        flex-grow: 2;
+        margin-bottom: 0vh;
+        padding-bottom: 0vh;
+        font-size: 10px;
+    }
+    .h4foglalj{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 12px;
+    }
+    .menu{
+        text-align: center;
+        padding-top: 2vh;
+        background-color: #101010;
+        color: white;
+    }
+    .azizek{
+        padding-top: 0px;
+        margin-top: -10px;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .szeretettel{
+        text-align: right;
+        font-weight: bold;
+    }
+    .nyitva{
+        flex-grow: 1;
+    }
+    .foglaljasztaltitt{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .lablec2{
+        text-align: center;
+        background-color: #101010;
+        color: white;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .pkgrid1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 100%;
+        width: 100%;
+    }
+    img{
+        object-fit: cover;
+    }
+    .pkgrid2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+    }
+    .pkgrid3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%;
+    }
+    .pkgrid4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%; 
+    }
+    .pkgrid5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        height: 54%;
+        width: 100%;
+    }
+    .kepek{
+        display: grid;
+        gap: 5px;
+        padding-bottom: 0vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .menupontokharom{
+        border: 1px solid lightgrey;
+        width: 15vw;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .ajanlatunkalatt{
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 2vh;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .szeretettel, .nyitva, .probald{
+        width: 25vw;
+    }
+    .pizzeria{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .kezdolap{
+        color: white;
+    }
+    .ajanlatunk{
+        margin-top: -10px;
+        color: lightgrey;
+        font-size: 13px;
+    }
+    .menuh2{
+        font-size: 20px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+  }
+@media (min-width: 768px)
+{
+    body{
+        background-color: gray;
+        margin: 0px;
+        background-color: #101010;
+        color: white;
+        font-family: sans-serif;
+    }
+    .fejleceskep{
+        background-image: url(img/pizzakep.jpg);
+        background-size: cover;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        color: white;
+        font-size: 11px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 45vw;
+        color: lightgray;
+    }
+    .piadinapizzeria{
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly; 
+        width: 80vw
+    }
+    .menupontok{
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        padding-bottom: 3vh;
+    }
+    .specialitasaink{
+        background-color: #222222;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 2vh;
+        color: white;
+    }
+    .lablec{
+        margin: auto;
+        width: 75vw;
+        display: flex;
+        gap: 3vw;
+        flex-grow: 1;
+        border-bottom: 2px solid grey;
+        background-color: #101010;
+        color: white;
+    }
+    .flexgrow1{
+        flex-grow: 1
+    }
+    .piadinafoglalj{
+        background-color: #222222;
+        color: white;
+        font-size: 13px;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        margin: auto;
+    }
+    .bal{
+        flex-grow: 1;
+        margin-right: 3vw;
+    }
+    .h2piadinapizzeria{
+        margin-bottom: 0.5vh;
+        margin: auto;
+    }
+    .tortenetunk{
+        text-align: right;
+        margin-top: 0px;
+        padding-top: 0px;
+        color: lightgrey;
+    }
+    .jobb{
+        flex-grow: 2;
+        margin-bottom: 0vh;
+        padding-bottom: 0vh;
+        font-size: 13px;
+    }
+    .h4foglalj{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .menu{
+        text-align: center;
+        padding-top: 2vh;
+        background-color: #101010;
+        color: white;
+    }
+    .azizek{
+        padding-top: 0px;
+        margin-top: -10px;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .szeretettel{
+        text-align: right;
+        font-weight: bold;
+    }
+    .nyitva{
+        flex-grow: 1;
+    }
+    .foglaljasztaltitt{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .lablec2{
+        text-align: center;
+        background-color: #101010;
+        color: white;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .pkgrid1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 100%;
+        width: 100%;
+    }
+    img{
+        object-fit: cover;
+    }
+    .pkgrid2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+    }
+    .pkgrid3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%;
+    }
+    .pkgrid4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%; 
+    }
+    .pkgrid5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        height: 54%;
+        width: 100%;
+    }
+    .kepek{
+        display: grid;
+        gap: 5px;
+        padding-bottom: 0vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .menupontokharom{
+        border: 1px solid lightgrey;
+        width: 15vw;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .ajanlatunkalatt{
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 2vh;
+        font-size: 10px;
+        color: lightgrey;
+    }
+    .szeretettel, .nyitva, .probald{
+        width: 25vw;
+    }
+    .pizzeria{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .kezdolap{
+        color: white;
+    }
+    .ajanlatunk{
+        margin-top: -10px;
+        color: lightgrey;
+        font-size: 13px;
+    }
+    .menuh2{
+        font-size: 20px;
+    }
+    .bold{
+        font-weight: bold;
+    }
 }
