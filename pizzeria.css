@@ -1,4 +1,9 @@
-@media (min-width: 1280px) {
+/*----------------------------------TELEFON----------------------------------*/
+/*----------------------------------TELEFON----------------------------------*/
+/*----------------------------------TELEFON----------------------------------*/
+/*----------------------------------TELEFON----------------------------------*/
+@media (min-width: 400px)
+{
     body{
         background-color: gray;
         margin: 0px;
@@ -23,13 +28,15 @@
         color: lightgray;
     }
     .piadinapizzeria{
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly; 
-        width: 80vw
+        margin: auto; 
+        width: 100%;
     }
     .menupontok{
         gap: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8vh;
         padding-bottom: 3vh;
     }
     .specialitasaink{
@@ -37,10 +44,11 @@
         text-align: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        padding-top: 2vh;
+        padding-top: 0vh;
         color: white;
     }
     .lablec{
+        padding-top: 5vh;
         margin: auto;
         width: 75vw;
         display: flex;
@@ -58,47 +66,51 @@
         color: white;
         font-size: 13px;
         padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-bottom: 1px;
         margin: auto;
     }
     .bal{
-        flex-grow: 1;
         margin-right: 3vw;
     }
     .h2piadinapizzeria{
         margin-bottom: 0.5vh;
         margin: auto;
+        text-align: right;
+        font-size: 22px;
     }
     .tortenetunk{
         text-align: right;
-        margin-top: 0px;
+        margin-top: 8px;
         padding-top: 0px;
+        font-size: 20px;
         color: lightgrey;
         font-family: 'Times New Roman', Times, serif;
     }
     .jobb{
-        flex-grow: 2;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-bottom: 0vh;
         padding-bottom: 0vh;
-        font-size: 10px;
+        font-size: 20px;
     }
     .h4foglalj{
         margin-top: 0px;
         padding-top: 0px;
-        font-size: 12px;
+        font-size: 22px;
     }
     .menu{
         text-align: center;
         padding-top: 2vh;
         background-color: #101010;
         color: white;
+        margin-bottom: 5vh;
     }
     .azizek{
         padding-top: 0px;
         margin-top: -10px;
-        font-size: 10px;
-        color: lightgrey;
+        font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
+        color: lightgrey;
     }
     .szeretettel{
         text-align: right;
@@ -120,10 +132,6 @@
         text-decoration: underline;
     }
     .pkgrid1{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
         height: 100%;
         width: 100%;
     }
@@ -131,35 +139,19 @@
         object-fit: cover;
     }
     .pkgrid2{
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
         height: 100%;
         width: 100%;
     }
     .pkgrid3{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 4;
         height: 100%;
         width: 100%;
     }
     .pkgrid4{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 4;
         height: 100%;
         width: 100%; 
     }
     .pkgrid5{
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 5;
-        height: 54%;
+        height: 90%;
         width: 100%;
     }
     .kepek{
@@ -171,16 +163,17 @@
     }
     .menupontokharom{
         border: 1px solid lightgrey;
-        width: 15vw;
-        font-size: 10px;
+        width: 60vw;
+        font-size: 24px;
         color: lightgrey;
     }
     .ajanlatunkalatt{
-        width: 70vw;
+        width: 92%;
         margin: auto;
-        margin-bottom: 2vh;
-        font-size: 10px;
+        margin-bottom: 5vh;
+        font-size: 14px;
         color: lightgrey;
+        font-size: 20px;
     }
     .szeretettel, .nyitva, .probald{
         width: 25vw;
@@ -193,18 +186,23 @@
         color: white;
     }
     .ajanlatunk{
-        margin-top: -10px;
+        margin-top: -20px;
         color: lightgrey;
-        font-size: 13px;
-        
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif
     }
     .menuh2{
-        font-size: 20px;
+        margin-top: 0px;
+        font-size: 30px;
     }
     .bold{
         font-weight: bold;
     }
-  }
+}
+/*----------------------------------TABLET----------------------------------*/
+/*----------------------------------TABLET----------------------------------*/
+/*----------------------------------TABLET----------------------------------*/
+/*----------------------------------TABLET----------------------------------*/
 @media (min-width: 768px)
 {
     body{
@@ -416,8 +414,11 @@
         font-weight: bold;
     }
 }
-@media (min-width: 400px)
-{
+/*----------------------------------SZÁMÍTÓGÉP----------------------------------*/
+/*----------------------------------SZÁMÍTÓGÉP----------------------------------*/
+/*----------------------------------SZÁMÍTÓGÉP----------------------------------*/
+/*----------------------------------SZÁMÍTÓGÉP----------------------------------*/
+@media (min-width: 1280px) {
     body{
         background-color: gray;
         margin: 0px;
@@ -428,7 +429,7 @@
     .fejleceskep{
         background-image: url(img/pizzakep.jpg);
         background-size: cover;
-        height: 30vh;
+        height: 50vh;
         width: 100%;
         display: flex;
         justify-content:space-between;
@@ -438,19 +439,25 @@
     .navbar{
         display: flex;
         justify-content: space-evenly;
-        width: 45vw;
+        width: 25vw;
         color: lightgray;
     }
     .piadinapizzeria{
-        margin: auto; 
-        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly; 
+        width: 60vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
     .menupontok{
-        gap: 5vw;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8vh;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5vw;
         padding-bottom: 3vh;
     }
     .specialitasaink{
@@ -458,7 +465,7 @@
         text-align: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        padding-top: 0vh;
+        padding-top: 2vh;
         color: white;
     }
     .lablec{
@@ -479,51 +486,48 @@
         color: white;
         font-size: 13px;
         padding-top: 3vh;
-        padding-bottom: 1px;
+        padding-bottom: 3vh;
         margin: auto;
     }
     .bal{
+        flex-grow: 1;
         margin-right: 3vw;
     }
     .h2piadinapizzeria{
         margin-bottom: 0.5vh;
         margin: auto;
-        text-align: right;
-        font-size: 30px;
     }
     .tortenetunk{
         text-align: right;
-        margin-top: 8px;
+        margin-top: 0px;
         padding-top: 0px;
-        font-size: 20px;
         color: lightgrey;
         font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
     }
     .jobb{
-        margin-left: 5px;
-        margin-right: 5px;
+        flex-grow: 2;
         margin-bottom: 0vh;
         padding-bottom: 0vh;
-        font-size: 20px;
+        font-size: 14px;
     }
     .h4foglalj{
         margin-top: 0px;
         padding-top: 0px;
-        font-size: 22px;
+        font-size: 17px;
     }
     .menu{
         text-align: center;
         padding-top: 2vh;
         background-color: #101010;
         color: white;
-        margin-bottom: 5vh;
     }
     .azizek{
         padding-top: 0px;
         margin-top: -10px;
-        font-size: 18px;
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
         color: lightgrey;
+        font-family: 'Times New Roman', Times, serif;
     }
     .szeretettel{
         text-align: right;
@@ -540,11 +544,16 @@
         text-align: center;
         background-color: #101010;
         color: white;
+        font-size: 13px;
     }
     .underline{
         text-decoration: underline;
     }
     .pkgrid1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
         height: 100%;
         width: 100%;
     }
@@ -552,63 +561,81 @@
         object-fit: cover;
     }
     .pkgrid2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
         height: 100%;
         width: 100%;
     }
     .pkgrid3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
         height: 100%;
         width: 100%;
     }
     .pkgrid4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
         height: 100%;
         width: 100%; 
     }
     .pkgrid5{
-        height: 90%;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        height: 70%;
         width: 100%;
     }
     .kepek{
         display: grid;
-        gap: 5px;
+        gap: 4vh;
         padding-bottom: 0vh;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
     }
     .menupontokharom{
         border: 1px solid lightgrey;
-        width: 60vw;
-        font-size: 24px;
+        width: 13vw;
+        font-size: 15px;
         color: lightgrey;
+        display: flex;
+        justify-content: center;
     }
     .ajanlatunkalatt{
-        width: 92%;
+        width: 55vw;
         margin: auto;
-        margin-bottom: 5vh;
-        font-size: 14px;
+        margin-bottom: 4vh;
+        font-size: 13px;
         color: lightgrey;
-        font-size: 20px;
     }
     .szeretettel, .nyitva, .probald{
         width: 25vw;
     }
     .pizzeria{
         padding-left: 10px;
-        font-size: 15px;
+        margin-left: 22px;
+        margin-top: 40px;
+        font-size: 25px;
     }
     .kezdolap{
         color: white;
     }
     .ajanlatunk{
-        margin-top: -20px;
+        margin-top: -10px;
         color: lightgrey;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif
+        font-size: 15px;
     }
     .menuh2{
-        margin-top: 0px;
-        font-size: 30px;
+        margin-top: 3vh;
+        font-size: 20px;
     }
     .bold{
         font-weight: bold;
     }
-}
+  }
