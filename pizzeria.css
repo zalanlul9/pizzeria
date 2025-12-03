@@ -50,10 +50,10 @@
     .lablec{
         padding-top: 5vh;
         margin: auto;
-        width: 75vw;
+        width: 85vw;
         display: flex;
+        flex-direction: column;
         gap: 3vw;
-        flex-grow: 1;
         border-bottom: 2px solid grey;
         background-color: #101010;
         color: white;
@@ -76,13 +76,13 @@
         margin-bottom: 0.5vh;
         margin: auto;
         text-align: right;
-        font-size: 22px;
+        font-size: 30px;
     }
     .tortenetunk{
         text-align: right;
         margin-top: 8px;
         padding-top: 0px;
-        font-size: 20px;
+        font-size: 23px;
         color: lightgrey;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -113,6 +113,7 @@
         color: lightgrey;
     }
     .szeretettel{
+        display: block;
         text-align: right;
         font-weight: bold;
         margin-left: -7vw;
@@ -133,28 +134,8 @@
     .underline{
         text-decoration: underline;
     }
-    .pkgrid1{
-        height: 100%;
-        width: 100%;
-    }
     img{
         object-fit: cover;
-    }
-    .pkgrid2{
-        height: 100%;
-        width: 100%;
-    }
-    .pkgrid3{
-        height: 100%;
-        width: 100%;
-    }
-    .pkgrid4{
-        height: 100%;
-        width: 100%; 
-    }
-    .pkgrid5{
-        height: 90%;
-        width: 100%;
     }
     .kepek{
         display: grid;
@@ -178,7 +159,7 @@
         font-size: 20px;
     }
     .szeretettel, .nyitva, .probald{
-        width: 25vw;
+        width: 85vw;
     }
     .pizzeria{
         padding-left: 10px;
@@ -199,6 +180,25 @@
     }
     .bold{
         font-weight: bold;
+    }
+    .kepek div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-style: italic;
+        font-family: 'Cormorant', serif;
+        font-size: 17px;
+    }
+    .lablec2piadina{
+        width: 70vw;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 }
 /*----------------------------------TABLET----------------------------------*/
@@ -252,7 +252,7 @@
     }
     .lablec{
         margin: auto;
-        width: 75vw;
+        width: 80vw;
         display: flex;
         gap: 3vw;
         flex-grow: 1;
@@ -391,7 +391,7 @@
         margin-bottom: 2vh;
         font-size: 10px;
         color: lightgrey;
-        font-size: 12px;
+        font-size: 14px;
     }
     .szeretettel, .nyitva, .probald{
         width: 25vw;
@@ -414,6 +414,86 @@
     }
     .bold{
         font-weight: bold;
+    }
+    .kepek div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-style: italic;
+        font-family: 'Cormorant', serif;
+        font-size: 17px;
+    }
+    .pkgrid1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(img/pizzakep.jpg);
+        box-shadow: 0px 0px 20px 0px black inset;
+    }
+    .pkgrid2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-image: url(img/pizzakep2.jpg);
+    }
+    .pkgrid3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url(img/pizzakep3.jpg);
+    }
+    .pkgrid4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4; 
+        background-image: url(img/pizzakep4.jpg);
+    }
+    .pkgrid5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        height: 90%;
+        background-image: url(img/pizzakep5.jpg);
+    }
+    .kepek{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20fr 1fr 8fr;
+        height: 70vh;
+        width: 70vw;
+        gap: 4vh;
+        padding-bottom: 0vh;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .menupontok{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5vw;
+        padding-bottom: 3vh;
+    }
+    .menu{
+        text-align: center;
+        padding-top: 2vh;
+        background-color: #101010;
+        color: white;
+    }
+    .menupontokharom{
+        border: 1px solid lightgrey;
+        width: 13vw;
+        font-size: 15px;
+        color: lightgrey;
+        display: flex;
+        justify-content: center;
     }
 }
 /*----------------------------------SZÁMÍTÓGÉP----------------------------------*/
@@ -603,7 +683,7 @@
         width: 70vw;
         gap: 4vh;
         padding-bottom: 0vh;
-        margin-left: 20vw;
+        margin-left: 14vw;
         margin-right: 20vw;
     }
     .menupontokharom{
@@ -663,4 +743,4 @@
         font-family: 'Cormorant', serif;
         font-size: 17px;
     }
-  }
+}
