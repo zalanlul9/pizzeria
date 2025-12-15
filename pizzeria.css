@@ -231,10 +231,10 @@
         color: lightgray;
     }
     .piadinapizzeria{
-        margin: auto;
+        /* margin: auto; */
         display: flex;
         justify-content: space-evenly; 
-        width: 65vw
+        width: 65vw;
     }
     .menupontok{
         display: flex;
@@ -525,6 +525,14 @@
         color: lightgray;
         margin-top: 20px;
         margin-right: 12px;
+        font-variant: normal;
+        text-decoration: none;
+    }
+    a{
+        color: lightgray;
+        font-variant: normal;
+        text-decoration: none;
+        padding-top: 11px;
     }
     .piadinapizzeria{
         margin: auto;
@@ -556,6 +564,7 @@
         margin: auto;
         width: 60vw;
         display: flex;
+        flex-direction: row;
         gap: 3vw;
         flex-grow: 1;
         border-bottom: 2px solid grey;
