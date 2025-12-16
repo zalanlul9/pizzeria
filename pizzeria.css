@@ -687,11 +687,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 20fr 1fr 8fr;
         height: 70vh;
-        width: 70vw;
+        width: 50vw;
         gap: 4vh;
         padding-bottom: 0vh;
-        margin-left: 14vw;
-        margin-right: 20vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
     }
     .menupontokharom{
         border: 1px solid lightgrey;
