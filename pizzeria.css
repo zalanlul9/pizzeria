@@ -22,7 +22,7 @@
         font-size: 11px;
     }
     .navbar{
-        display: flex;
+        display: none;
         justify-content: space-evenly;
         width: 45vw;
         color: lightgray;
@@ -44,7 +44,7 @@
         text-align: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        padding-top: 0vh;
+        padding-top: 5vh;
         color: white;
     }
     .lablec{
@@ -160,8 +160,9 @@
         width: 85vw;
     }
     .pizzeria{
+        margin-top: 4vh;
         padding-left: 10px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .kezdolap{
         color: white;
@@ -188,7 +189,7 @@
         background-repeat: no-repeat;
         font-style: italic;
         font-family: 'Cormorant', serif;
-        font-size: 17px;
+        font-size: 30px;
     }
     .lablec2piadina{
         width: 70vw;
@@ -196,6 +197,41 @@
         text-align: center;
         margin: auto;
         margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .pkgrid1{
+        background-image: url(img/pizzakep.jpg);
+        width: 90vw;
+        height: 50vh;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    .pkgrid2{
+        background-image: url(img/pizzakep2.jpg);
+        width: 90vw;
+        height: 50vh;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    .pkgrid3{
+        background-image: url(img/pizzakep3.jpg);
+        width: 90vw;
+        height: 50vh;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    .pkgrid4{
+        background-image: url(img/pizzakep4.jpg);
+        width: 90vw;
+        height: 50vh;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    .pkgrid5{
+        background-image: url(img/pizzakep5.jpg);
+        width: 90vw;
+        height: 50vh;
+        margin: auto;
         margin-bottom: 3vh;
     }
 }
