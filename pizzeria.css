@@ -536,7 +536,7 @@
         margin: auto;
         display: flex;
         justify-content: space-evenly; 
-        width: 60vw;
+        width: 50vw;
         height: 15vh;
         display: flex;
         flex-direction: row;
@@ -579,6 +579,8 @@
         padding-top: 3vh;
         padding-bottom: 3vh;
         margin: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
     .bal{
         flex-grow: 1;
@@ -695,17 +697,17 @@
     }
     .menupontokharom{
         border: 1px solid lightgrey;
-        width: 13vw;
+        width: 10vw;
         font-size: 15px;
         color: lightgrey;
         display: flex;
         justify-content: center;
     }
     .ajanlatunkalatt{
-        width: 55vw;
+        width: 45vw;
         margin: auto;
         margin-bottom: 4vh;
-        font-size: 13px;
+        font-size: 15px;
         color: lightgrey;
     }
     .szeretettel, .nyitva, .probald{
