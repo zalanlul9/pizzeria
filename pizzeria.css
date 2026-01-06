@@ -25,16 +25,24 @@
         justify-content: space-evenly;
         width: 25vw;
         color: lightgray;
-        margin-top: 20px;
-        margin-right: 12px;
+        margin-top: 2px;
+        margin-right: 2px;
         font-variant: normal;
         text-decoration: none;
+        text-align: right;
     }
-    a{
+    a p, .kezdolap{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        padding-top: -2px;
         color: lightgray;
         font-variant: normal;
         text-decoration: none;
         padding-top: 11px;
+        width: 20vw;
     }
     .piadinapizzeria{
         margin: auto; 
@@ -174,7 +182,16 @@
         font-size: 18px;
     }
     .kezdolap{
-        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        padding-top: -2px;
+        color: lightgray;
+        font-variant: normal;
+        text-decoration: none;
+        padding-top: 11px;
     }
     .ajanlatunk{
         margin-top: -20px;
@@ -273,15 +290,25 @@
         width: 25vw;
         color: lightgray;
         margin-top: 20px;
-        margin-right: 25px;
+        margin-right: 50vw;
         font-variant: normal;
         text-decoration: none;
+        text-align: left;
     }
     a{
+        text-decoration: none;
+    }
+    a p, .kezdolap{
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        border-radius: none;
+        padding: 5px;
+        padding-top: -2px;
         color: lightgray;
         font-variant: normal;
         text-decoration: none;
-        padding-top: 11px;
+        padding-top: 0px;
     }
     .piadinapizzeria{
         /* margin: auto; */
@@ -455,7 +482,13 @@
         font-size: 15px;
     }
     .kezdolap{
-        color: white;
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        color: lightgray;
+        font-variant: normal;
+        text-decoration: none;
+        padding-top: 0px;
     }
     .ajanlatunk{
         margin-top: -10px;
@@ -583,6 +616,9 @@
         text-decoration: none;
     }
     a{
+        text-align: center;
+        background-color: transparent;
+        border: none;
         color: lightgray;
         font-variant: normal;
         text-decoration: none;
@@ -776,7 +812,13 @@
         font-size: 25px;
     }
     .kezdolap{
-        color: white;
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        color: lightgray;
+        font-variant: normal;
+        text-decoration: none;
+        padding-top: 0px;
     }
     .ajanlatunk{
         margin-top: -10px;
