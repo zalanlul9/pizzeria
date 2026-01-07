@@ -31,19 +31,7 @@
         text-decoration: none;
         text-align: right;
     }
-    a p, .kezdolap{
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        border: 2px solid white;
-        border-radius: 5px;
-        padding: 5px;
-        padding-top: -2px;
-        color: lightgray;
-        font-variant: normal;
-        text-decoration: none;
-        padding-top: 11px;
-        width: 20vw;
-    }
+
     .piadinapizzeria{
         margin: auto; 
         width: 100%;
@@ -290,7 +278,7 @@
         width: 25vw;
         color: lightgray;
         margin-top: 20px;
-        margin-right: 50vw;
+        margin-right: 12vw;
         font-variant: normal;
         text-decoration: none;
         text-align: left;
@@ -611,18 +599,25 @@
         width: 25vw;
         color: lightgray;
         margin-top: 20px;
-        margin-right: 12px;
+        margin-right: 5vw;
         font-variant: normal;
         text-decoration: none;
+        text-align: left;
     }
     a{
+        text-decoration: none;
+    }
+    .kezdolap{
         text-align: center;
         background-color: transparent;
         border: none;
+        border-radius: none;
+        padding: 5px;
+        padding-top: -2px;
         color: lightgray;
         font-variant: normal;
         text-decoration: none;
-        padding-top: 11px;
+        padding-top: 0px;
     }
     .piadinapizzeria{
         margin: auto;
@@ -850,4 +845,8 @@
         font-family: 'Cormorant', serif;
         font-size: 17px;
     }
+}
+@media (max-width: 767px)
+{
+
 }
